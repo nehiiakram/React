@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f0;
+}
+
+/* Main Container */
+.main-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+/* Heading */
+.main-container h1 {
+  text-align: center;
+  color: #285943;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+/* Form */
+.post-form {
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+  padding: 30px;
+
+  background: #ffffff;
+  border-radius: 18px;
+
+  box-shadow: 0 8px 25px rgba(40, 89, 67, 0.15);
+}
+
+/* Inputs */
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 15px;
+
+  border: 1px solid #cbd8ce;
+  border-radius: 9px;
+
+  outline: none;
+  font-size: 15px;
+
+  background: #fafcf9;
+}
+
+/* Focus */
+.post-form input:focus,
+.post-form textarea:focus {
+  border-color: #4d8061;
+  box-shadow: 0 0 6px rgba(77, 128, 97, 0.2);
+}
+
+/* Textarea */
+.post-form textarea {
+  height: 110px;
+  resize: none;
+}
+
+/* Button */
+.post-form button {
+  width: 100%;
+  padding: 13px;
+
+  border: none;
+  border-radius: 9px;
+
+  background: #357052;
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.post-form button:hover {
+  background: #285943;
+  transform: translateY(-2px);
+}
+
+/* Cards Container */
+.cards-container {
+  display: grid;
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  );
+
+  gap: 25px;
+  margin-top: 45px;
+}
+
+/* Card */
+.post-card {
+  background: #ffffff;
+
+  padding: 25px;
+
+  border-radius: 18px;
+
+  border: 1px solid #d8e3da;
+
+  box-shadow: 0 7px 20px rgba(40, 89, 67, 0.12);
+
+  transition: 0.3s;
+}
+
+.post-card:hover {
+  transform: translateY(-7px);
+
+  box-shadow: 0 12px 25px rgba(40, 89, 67, 0.2);
+}
+
+/* Profile Circle */
+.profile-icon {
+  width: 55px;
+  height: 55px;
+
+  border-radius: 50%;
+
+  background: #dce9df;
+  color: #285943;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  margin-bottom: 15px;
+}
+
+/* Card Title */
+.post-card h2 {
+  margin: 0 0 10px;
+
+  color: #285943;
+
+  font-size: 22px;
+}
+
+/* Description */
+.post-card .description {
+  color: #5f6b63;
+
+  line-height: 1.6;
+
+  margin-bottom: 20px;
+}
+
+/* Line */
+.post-card hr {
+  border: none;
+
+  border-top: 1px solid #e0e8e2;
+
+  margin: 18px 0;
+}
+
+
+.post-card p {
+  color: #4d5750;
+
+  margin: 8px 0;
+
+  line-height: 1.5;
+}
+

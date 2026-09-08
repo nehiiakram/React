@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(129, 216, 243);
+}
+
+.button{
+   background-color: rgb(194, 67, 88);
+    color: rgb(12, 6, 7);
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 20px;
+    font-size: large;
+}
+
+.field{
+    border-radius: 10px;
+    width: 20%;
+    height: 40px;
+    font-size: large;
+}
+

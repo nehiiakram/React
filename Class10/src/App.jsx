@@ -23,7 +23,7 @@ export default function App() {
     brideParents: "Mr. & Mrs. Tariq Mahmood",
     weddingDate: "2026-12-25T20:00:00", // Barat Date
     city: "Karachi, Pakistan",
-    hostWhatsApp: "923001234567", // Host WhatsApp for RSVP
+    hostWhatsApp: "923272105077", // Host WhatsApp for RSVP
   };
 
   const handleEnvelopeOpen = () => {
